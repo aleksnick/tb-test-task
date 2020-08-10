@@ -1,13 +1,19 @@
 ## Решение задания
 
 Установка зависимостей
-`npm install`
+```
+npm install
+```
 
 Запуск сервера
-`npm run server`
+```
+npm run server
+```
 
 Запуск приложения
-`npm run start`
+```
+npm run start
+```
 
 ### Как это выглядит
 

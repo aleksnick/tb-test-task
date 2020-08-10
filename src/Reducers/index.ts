@@ -2,7 +2,6 @@ import {Actions} from 'src/Actions';
 import {IStore} from 'src/@types/store';
 
 export default function reducer(state: IStore, action: Actions) {
-  console.log('>>> action', action);
   switch (action.type) {
     case 'INIT_APP':
       return {
