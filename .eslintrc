@@ -1,0 +1,171 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "jest": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "tsconfigRootDir": ".",
+    "ecmaVersion": 2018,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "experimentalDecorators": true,
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "@typescript-eslint"
+  ],
+  "globals": {
+    "VoxImplant": true
+  },
+  "rules": {
+    "no-console": 0,
+    "no-unused-vars": "error",
+    "no-useless-constructor": 0,
+    "react/jsx-uses-react": "error",
+    "semi": [
+      "warn"
+    ],
+    "prefer-const": [
+      "warn"
+    ],
+    "padded-blocks": [
+      "warn"
+    ],
+    "react/jsx-no-comment-textnodes": "error",
+    "react/jsx-uses-vars": [
+      2
+    ],
+    "react/display-name": "warn",
+    "react/jsx-key": "warn",
+    "react/prop-types": "off",
+    "comma-dangle": "off",
+    "max-len": [
+      "error",
+      100
+    ],
+    "indent": [
+      "warn",
+      2
+    ],
+    "quotes": [
+      "warn",
+      "single"
+    ],
+    "camelcase": "off",
+    "eqeqeq": [
+      "warn"
+    ],
+    "newline-before-return": [
+      "off"
+    ],
+    "no-case-declarations": [
+      "off"
+    ],
+    "no-invalid-this": "off",
+    "require-jsdoc": [
+      "off"
+    ],
+    "spaced-comment": [
+      "warn"
+    ],
+    "quote-props": [
+      "error",
+      "as-needed",
+      {
+        "unnecessary": false
+      }
+    ],
+    "operator-linebreak": [
+      "warn"
+    ],
+    "linebreak-style": "off",
+    "arrow-parens": [
+      "warn"
+    ],
+    "guard-for-in": "warn",
+    "no-useless-escape": "off",
+    "valid-jsdoc": "off", //Deprecated
+    "no-prototype-builtins": "warn",
+    "new-cap": "warn",
+    "@typescript-eslint/no-unused-vars": [
+      "error"
+    ],
+    "@typescript-eslint/camelcase": [
+      "off"
+    ],
+    "@typescript-eslint/no-explicit-any": [
+      "warn"
+    ],
+    "@typescript-eslint/no-empty-interface": [
+      "off"
+    ],
+    "@typescript-eslint/no-var-requires": [
+      "off"
+    ],
+    "@typescript-eslint/no-inferrable-types": [
+      "warn"
+    ],
+    "@typescript-eslint/member-delimiter-style": [
+      "warn"
+    ],
+    "@typescript-eslint/explicit-function-return-type": [
+      "off"
+    ],
+    "@typescript-eslint/no-use-before-define": [
+      "off"
+    ],
+    "@typescript-eslint/explicit-module-boundary-types": [
+      "on",
+      {
+        "allowHigherOrderFunctions": true,
+        "allowTypedFunctionExpressions": true
+      }
+    ],
+    "prefer-rest-params": [
+      "warn"
+    ],
+    "one-var": [
+      "warn"
+    ],
+    "no-var": [
+      "warn"
+    ],
+    "react/no-string-refs": [
+      "warn"
+    ],
+    "block-spacing": [
+      "warn",
+      "never"
+    ],
+    "object-curly-spacing": [
+      "warn",
+      "never"
+    ],
+    "space-before-function-paren": [
+      "warn",
+      "never"
+    ]
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "google",
+    // Отключаем правила из базового набора
+    "plugin:@typescript-eslint/eslint-recommended",
+    // Базовые правила для TypeScript
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "detect"
+    }
+  }
+}

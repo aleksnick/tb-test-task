@@ -1,0 +1,7 @@
+/node_modules/*
+/bower_components/*
+/tests/*
+/tests_browser_console/*
+/webpack/*
+/bin/*
+webpack.config.js

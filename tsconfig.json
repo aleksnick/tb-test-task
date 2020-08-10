@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "outDir": "lib/",
+    "rootDir": "src/",
+    "module": "esnext",
+    "target": "es5",
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src_ts/@types",
+      "./src_ts/@specs"
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "src/*": ["src/*"],
+    },
+    "sourceMap": true,
+    "declaration": false,
+    "allowJs": false,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "alwaysStrict": true,
+    "noUnusedParameters": false,
+    "noUnusedLocals": false,
+    "pretty": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "importHelpers": true,
+    "noEmitHelpers": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "declarations",
+    "dist",
+    "lib",
+    "webpack",
+    "public"
+  ]
+}
