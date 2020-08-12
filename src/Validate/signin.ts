@@ -28,7 +28,6 @@ function validatePassword(v: string) {
 }
 
 export default function validate(data: ISigninForm) {
-  const err = new Array<string>();
   const loginErr = validateLogin(data.login);
   if (loginErr && loginErr.length) {
     return loginErr;

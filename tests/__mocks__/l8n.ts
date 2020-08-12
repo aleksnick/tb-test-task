@@ -1,0 +1,1 @@
+module.exports.l8n = (key: string) => (key);

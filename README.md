@@ -5,7 +5,12 @@
 npm install
 ```
 
-Запуск сервера
+Запуск тестов
+```
+npm run test
+```
+
+Запуск API сервера
 ```
 npm run server
 ```
@@ -14,6 +19,8 @@ npm run server
 ```
 npm run start
 ```
+
+
 
 ### Как это выглядит
 
