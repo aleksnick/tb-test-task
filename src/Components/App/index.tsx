@@ -12,5 +12,5 @@ export default function App({user}: IProps) {
   if (!user) {
     return null;
   }
-  return <p>{`name: ${user.name}, age: ${user.age}`}</p>;
+  return <p>{`id: ${user.id}, name: ${user.name}, age: ${user.age}`}</p>;
 }

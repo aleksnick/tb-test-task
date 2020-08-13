@@ -1,4 +1,4 @@
-import {call, put, takeEvery} from 'redux-saga/effects';
+import {call, put} from 'redux-saga/effects';
 import {signin, API_RQUEST_TS} from '../signin';
 import {SigninTypes, SigninError, SigninSuccess} from '../../../src/Actions/signin';
 import signValidate from '../../Validate/signin';
