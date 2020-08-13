@@ -16,8 +16,8 @@ import {ISigninForm} from 'src/@types/signin';
 import {l8n} from 'src/l8n';
 
 interface IProps {
-  error: string;
-  pending: boolean;
+  error?: string;
+  pending?: boolean;
   onSubmit?: (form: ISigninForm) => void;
 }
 
